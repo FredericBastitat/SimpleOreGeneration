@@ -93,10 +93,6 @@ public class SmeltingRecipes
 
 	public static void moddedRecipes()
 	{	
-		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceAluminumOre"), new ItemStack(SGItems.ALUMINUM_INGOT), 0.7f);
-		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceCopperOre"), new ItemStack(SGItems.COPPER_INGOT), 0.7f);
-		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceIridiumOre"), new ItemStack(SGItems.IRIDIUM_INGOT), 0.7f);
-		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceLeadOre"), new ItemStack(SGItems.LEAD_INGOT), 0.7f);
 		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceMagnetiteOre"), new ItemStack(Items.IRON_INGOT, 4), 0.7f);
 		GameRegistry.addSmelting(SGOres.getBlockSurface("surfaceNickelOre"), new ItemStack(SGItems.NICKEL_INGOT), 0.7f);
 		GameRegistry.addSmelting(SGOres.getBlockSurface("surfacePlatinumOre"), new ItemStack(SGItems.PLATINUM_INGOT), 0.7f);
